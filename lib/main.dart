@@ -9,9 +9,15 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        backgroundColor: Color(0xff062315),
+    return MaterialApp(
+      home: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+              image: AssetImage('images/background.png'),
+          ),
+        ),
+      child : Scaffold(
+        backgroundColor: Colors.transparent,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -117,6 +123,7 @@ class MyApp extends StatelessWidget {
             ],
           ),
         ),
+      ),
       ),
     );
   }

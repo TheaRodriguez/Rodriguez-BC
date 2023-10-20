@@ -60,6 +60,7 @@ flutter:
 
   assets:
     - images/last.png
+    - images/background.png
 
   fonts:
     - family: EBGaramond
