@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
               image: AssetImage('images/background.png'),
           ),
         ),
-      child : Scaffold(
+      child : const Scaffold(
         backgroundColor: Colors.transparent,
         body: SafeArea(
           child: Column(
@@ -119,7 +119,6 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-
             ],
           ),
         ),
